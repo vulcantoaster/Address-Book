@@ -1,0 +1,26 @@
+// Algorithm: PrintPersonalInfo
+
+START
+
+// 1. Define Variables for Personal Information
+DECLARE FirstName AS STRING
+DECLARE LastName AS STRING
+DECLARE StreetAddress AS STRING
+DECLARE City AS STRING
+DECLARE ZipCode AS STRING
+
+// 2. Assign Fictional Values to Variables
+SET FirstName = "Alex"
+SET LastName = "Rivera"
+SET StreetAddress = "123 Main St"
+SET City = "Anytown"
+SET ZipCode = "90210"
+
+// 3. Output Each Piece of Information on a New Line
+OUTPUT FirstName
+OUTPUT LastName
+OUTPUT StreetAddress
+OUTPUT City
+OUTPUT ZipCode
+
+END
